@@ -10,5 +10,23 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php" : ">=5.3.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "swede2k\\XenforoBridge\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "swede2k\\XenforoBridge\\ServiceProvider"
+            ],
+            "aliases": {
+                "XenforoBridge": "swede2k\\Hello\\Facade"
+            }
+        }
+    }
 }

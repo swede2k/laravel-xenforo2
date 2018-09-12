@@ -1,0 +1,14 @@
+{
+    "name": "swede2k/laravel-xenforo2",
+    "description": "Laravel Auth Bridge Xenforo2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Shved",
+            "email": "swede2k@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
